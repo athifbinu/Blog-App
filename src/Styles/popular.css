@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popular-section{
+    margin: 30px;
+}
+.popular-section hr {
+    margin: 84px;
+}
+.card-section{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+.card img{
+  width: 250px;
+  height: 250px;
+}
+.card p{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(56, 77, 26);
+}
+.card h3{
+    text-align: center;
+    text-decoration: none;
+
+}
+.card span{
+    text-align: center;
+    font-family: monospace;
+    margin-left: 47px;
+
+}
+
+
+.mane-head{
+    text-align: center;
+}
+.lg-card{
+    margin: 206px;
+    margin-top: -5px;
+
+}
+.lg-card p{
+    margin-top: 18px;
+    text-decoration: underline;
+    font-family: monospace;
+    color: rgb(56, 77, 26);
+}
+.lg-card h3{
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.lg-card span{
+    font-family: monospace;
+}
+.profile-card{
+    text-align: end;
+}
+.profile-card input{
+    height: 38px;
+    position: relative;
+}
+.search-icon{
+    right: 48px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.profile-section{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+.profile-section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+.profile-section h1{
+    font-size: 32px;
+    margin-top: 20px;
+}
+.profile-section p{
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.5;
+}

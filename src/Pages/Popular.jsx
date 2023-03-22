@@ -54,16 +54,20 @@ const Popular = () => {
           <div className="large-section">
 
 
-          <div className="profile-card">
-               <input  type="text" placeholder='Serach... ' />
-               <AiOutlineSearch className='search-icon'/>
+          <div className="profile-search">
+                        <input type="text" placeholder='Search....' />
+                        <AiOutlineSearch className='search-icon'/>
+                  </div>
+           
 
                <div className="profile-section">
+        
                      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="" />
                      <h1>Your Name</h1>
                     <p>Brief description of yourself</p>
                </div>
-          </div>
+      
+
 
                <div className="lg-card">
                  <img src="https://images.unsplash.com/photo-1677691824304-279660ceece3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" />
@@ -72,8 +76,8 @@ const Popular = () => {
                  <br />
                  <span>by  name / 02 MAY 2023</span>
 
-            
                </div>
+
           
 
                <div className="lg-card">

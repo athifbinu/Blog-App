@@ -43,7 +43,11 @@
 .lg-card{
     margin: 206px;
     margin-top: -5px;
+    height: 355px;
 
+}
+.lg-card img{
+    width: 530px;
 }
 .lg-card p{
     margin-top: 18px;
@@ -54,38 +58,44 @@
 .lg-card h3{
     margin-top: 20px;
     text-decoration: none;
+    width: 530px;
 
 }
 .lg-card span{
     font-family: monospace;
 }
-.profile-card{
-    text-align: end;
+
+
+
+.profile-search{
+    float: right;
+    margin-top: 113px;
+    margin-right: 209px;
 }
-.profile-card input{
-    height: 38px;
-    position: relative;
+.profile-search input{
+    width: 202px;
+    height: 43px;
 }
 .search-icon{
-    right: 48px;
-    color: black;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 10px;
+    margin-left: -30px;
 }
 
 .profile-section{
-    width: 300px;
-    height: 400px;
-    background-color: #ffffff;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(250, 250, 250, 0.644);
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
+
+    position: absolute;
+    margin-left: 825px;
+    margin-top: 177px;
 }
 .profile-section img{
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 127px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto;

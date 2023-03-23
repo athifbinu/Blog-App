@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-img{
+    text-align: center;
+}
+.banner-img img{
+    margin-top: 113px;
+    height: 400px;
+    width: 90%;
+    margin-left: -69px;
+}
+.blog-section{
+    background-color: #fff;
+    width: 1020px;
+    margin-left: 76px;
+    position: relative;
+    margin-top: -76px;
+    display: flex;
+}
+.mane-heade{
+    margin: 66px;
+    font-size: 12px;
+    font-family: monospace;
+}
+.card-one{
+    width: 70%;
+    margin: 40px;
+}
+.card-one h2{
+    text-align: start;
+    font-size: 20px;
+}
+
+.card-one p{
+    text-align: start;
+}
+.card-two{
+    text-align: start;
+}
+.card-two-img{
+    display: flex;
+    margin-left: 70px;
+    gap: 60px;
+
+}
+.card-two-img img{
+    width: 40%;
+    height: 250px;
+}
+.cr-two-desc{
+    margin: 30px;
+}
+.left-sectione input{
+    margin-top: 150px;
+    height: 43px;
+
+}
+.popular-card-section{
+    display: flex;
+}
+.popular-card-section img{
+    margin-left: 8px;
+    width: 212px;
+    height: 129px;
+}
+.popular-card-section h3{
+    font-size: 13px;
+    margin-top: 175px;
+}
+
+.card-image img{
+    width: 85%;
+    height: 220px;
+} 
+
+.social-icons{
+    
+    margin-left: -590px;
+  
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+ 
+
+}
+
+.related-section{
+    
+    display: flex;
+    gap: 97px;
+    margin-left: 81px;
+}
+.related{
+    width: 50px;
+    height: 50px;
+}

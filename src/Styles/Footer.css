@@ -86,3 +86,27 @@
     justify-content: center;
     gap: 10px;
 }
+.text-box{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    font-size: 10px;
+    font-family: monospace;
+    margin: 18px;
+}
+.social-midia{
+    text-align: center;
+    margin: 30px;
+}
+.social-midia a{
+    color: black;
+    margin: 35px;
+    font-size: 24px;
+}
+.footer_copyright{
+    color: black;
+    font-size: .9rem;
+    text-align: center;
+    margin: 15px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    margin: 35px ;
+    position: absolute;
+    z-index: 1;
+    
+}
+.head-icons{
+    display: flex;
+    gap: 2px;
+}
+
+.hero-descriptions{
+    padding-top: 41px;
+    text-decoration: none;
+    font-family: monospace;
+    margin-left: -92px;
+    color: black;
+    font-weight: bold;
+}
+.navs{
+    
+    gap: 20px;
+    margin-left: 950px;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    display: flex;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+     
+}
+
+.rectangle {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+
+    
+ }

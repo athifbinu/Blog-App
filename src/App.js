@@ -1,14 +1,20 @@
 import React from 'react'
 import Home from "./Pages/Home"
-import Popular from './Pages/Popular'
+
 import Footer from './Components/Footer'
+import Layout from './Components/Layout'
 const App = () => {
   return (
-    <div>
-      <Home/>
-      <Popular/>
-      <Footer/>
-    </div>
+  
+       <div>
+         <Layout/>
+       </div>
+
+
+   
+    
+
+ 
   )
 }
 

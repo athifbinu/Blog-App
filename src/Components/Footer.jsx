@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Styles/Footer.css"
 import {motion} from 'framer-motion'
+import {AiFillGithub,AiOutlineTwitter,AiOutlineLinkedin,AiOutlineCopyrightCircle} from "react-icons/ai"
+
 const Footer = () => {
   return (
     <footer className='footer'>
@@ -39,17 +41,36 @@ const Footer = () => {
 
 
             <div className="social-text">
+              <hr />
                     <div className="text-box">
-                      
-                        <ul>
-                          <li>About ME</li>
-                          <li>CONTACT ME</li>
-                          <li>ADVERTISING</li>
-                          <li>TERMS OF USE</li>
-                          <li>SUBSCRIBE</li>
-                        </ul>
-                        
+                         <p>ABOUT ME</p>
+                         <p>CONTACT ME</p>
+                         <p>ADVERTISING</p>
+                         <p>TERMS OF USE</p>
+                         <p>SUBSCRIBE</p>
                     </div>
+                    <hr />
+
+                    <div className="social-midia">
+                      <a href="#">
+                      <AiFillGithub/>
+                      </a>
+
+                      <a href="#">
+                      <AiOutlineTwitter/>
+                      </a>
+
+                      <a href="#">
+                        <AiOutlineLinkedin/>
+                      </a>
+
+                    </div>
+
+                    <p className="footer_copyright">
+                      <AiOutlineCopyrightCircle/>
+                    Copiright 2023 Developed by Muhammed Athif. All rights reserved.
+                  </p>
+
                  </div>
 
             

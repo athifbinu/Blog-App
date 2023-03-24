@@ -3,10 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-.head{
+header{
     display: flex;
     margin: 35px ;
-    position: absolute;
     z-index: 1;
     
 }

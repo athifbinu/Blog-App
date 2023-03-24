@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
+    top: -38px;
 }
 
 .left-section{
@@ -59,9 +60,10 @@
  }
  .right-imgsection img{
     width: 178px;
-    margin-top: -66px;
+    margin-top: -34px;
     position: relative;
     margin-left: -19px;
+    margin-top: -50;
     
 }
 

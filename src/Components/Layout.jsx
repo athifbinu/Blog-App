@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header  from './Header'
 import Footer from './Footer'
 import Roter from '../Roter/Roters'
 const Layout = () => {
+
+
   return (
     <>
 

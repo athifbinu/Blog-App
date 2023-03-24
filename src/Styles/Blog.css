@@ -1,10 +1,4 @@
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .blog-hero {
    text-align: center;
 
@@ -19,13 +13,14 @@
 .blog-card{
     background-color: #fff;
     width: 70%;
-    margin-left: 176px;
+    margin-left: 141px;
     position: relative;
     margin-top: -49px;
 
 }
 .card-img{
     display: flex;
+    justify-content: center;
 }
 .sm-img img{
        height: 250px;

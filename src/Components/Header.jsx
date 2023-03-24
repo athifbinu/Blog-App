@@ -1,8 +1,9 @@
 import React from 'react'
 import "../Styles/Header.css"
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
-    <div className='head'>
+    <header>
 
           <div className="head-icons">
                <div class="rectangle"></div>
@@ -14,10 +15,10 @@ const Header = () => {
            <div className="navs">
                <p>Home</p>
                 
-               <p to='/Blog'>BLog</p>
+               <Link  to='/Blog'>BLog</Link>
            </div>
 
-    </div>
+    </header>
   )
 }
 

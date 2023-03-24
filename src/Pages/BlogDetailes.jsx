@@ -1,10 +1,18 @@
 import React from 'react'
 import "../Styles/Blogdetailes.css"
-const BlogDetailes = () => {
+const BlogDetailes = (props) => {
+
+      const datas=props.data
+
   return (
     <div>
       <div className="bl-detailes-section">
-           <div className="banner-img">
+            {
+               datas.map((item,index)=>{
+                   if(index<1)
+                return(
+                  <>
+             <div className="banner-img">
               <  img src="https://images.unsplash.com/photo-1486525546686-3cd5484691f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=831&q=80" alt="" />
              
               <div className="blog-section">
@@ -13,25 +21,22 @@ const BlogDetailes = () => {
                    <p className='mane-heade'>My Blogs</p>
                          <div className="card-one">
                            <p className='card-head'>LIFESTYLE</p>
-                            <h2>minidsls hello athif welcome todshcsdhsdhchascha kerala</h2>
+                            <h2>{item.title}</h2>
                              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
-                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae perferendis omnis laborum, veniam animi doloremque. A soluta illo at! Sunt quas 
-                              sint pariatur! Ab asperiores ex fuga, doloribus deleniti sequi.</p>
+                             <p>{item.body}</p>
                           
                          </div>
 
                          <div className="card-two">
-                            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dele</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit porro fugit ipsum excepturi non et laudantium atque, commodi obcaecati 
-                              tenetur molestias sint illum, ad ipsa, officia quod voluptas odio cumque.</p>
+                            <h3>{item.title}</h3>
+                            <p>{item.body}</p>
 
                               <div className="card-two-img">
                                 <img src="https://images.unsplash.com/photo-1519558260268-cde7e03a0152?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                                 <img src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="" />
                               </div>
-                              <h3 className='cr-two-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio non voluptas porro cupiditate incidunt, quo repudiandae? Dignissimos qui ve</h3>
-                              <p className='cr-two-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident obcaecati incidunt laboriosam ullam rem aliquam ipsa maxime eius, porro aperiam? 
-                                Minus aut alias laudantium est. Porro officiis nihil tenetur autem?</p>
+                              <h3 className='cr-two-desc'>{item.title}</h3>
+                              <p className='cr-two-desc'>{item.body}</p>
                          </div>
 
 
@@ -61,11 +66,12 @@ const BlogDetailes = () => {
                             <input type="text" placeholder='search' />
 
                             <div className="post">
-                               <p>poular posts</p>
+                               
                                 <div className='popular-card'>
+                                  
                                     <div className="popular-card-section">
                                           <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="" />
-                                          <h3>Lorem ipsum dolor sit amet consectetur adipisic dsjndsjsd</h3>
+                                          <h3>{item.title}</h3>
                                   
                                     </div>
                                 </div>
@@ -74,7 +80,7 @@ const BlogDetailes = () => {
                                 <div className='popular-card'>
                                     <div className="popular-card-section">
                                           <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="" />
-                                          <h3>Lorem ipsum dolor sit amet consectetur adipisic dsjndsjsd</h3>
+                                          <h3>{item.title}</h3>
                                   
                                     </div>
                                 </div>
@@ -83,7 +89,7 @@ const BlogDetailes = () => {
                                 <div className='popular-card'>
                                     <div className="popular-card-section">
                                           <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="" />
-                                          <h3>Lorem ipsum dolor sit amet consectetur adipisic dsjndsjsd</h3>
+                                          <h3>{item.title}</h3>
                                   
                                     </div>
                                 </div>
@@ -99,6 +105,10 @@ const BlogDetailes = () => {
                    </div>
               </div>
            </div>
+                  </>
+                )
+               })
+            }
       </div>
     </div>
   )
